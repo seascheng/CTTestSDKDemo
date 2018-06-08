@@ -1,0 +1,6 @@
+framework module Pods_CTTestSDKDemo {
+  umbrella header "Pods-CTTestSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CTTestSDK {
+  umbrella header "CTTestSDK.h"
+
+  export *
+  module * { export * }
+}

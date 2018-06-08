@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DA2E8B2320C7D87900DF7984 /* CTTest */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DA2E8B2420C7D87900DF7984 /* Build configuration list for PBXAggregateTarget "CTTest" */;
+			buildPhases = (
+				DA2E8B2720C7D87C00DF7984 /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = CTTest;
+			productName = CTTest;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DA2E8B0A20C7CAD500DF7984 /* CTTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E8B0020C7CAD400DF7984 /* CTTestSDK.framework */; };
+		DA2E8B0F20C7CAD500DF7984 /* CTTestSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E8B0E20C7CAD500DF7984 /* CTTestSDKTests.m */; };
+		DA2E8B1120C7CAD500DF7984 /* CTTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E8B0320C7CAD400DF7984 /* CTTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2E8B2120C7D11D00DF7984 /* CTTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E8B1F20C7D11D00DF7984 /* CTTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2E8B2220C7D11D00DF7984 /* CTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E8B2020C7D11D00DF7984 /* CTTestView.m */; };
+		DA2E8B2F20C8075600DF7984 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E8B2E20C8075600DF7984 /* SDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2E8B0B20C7CAD500DF7984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2E8AF720C7CAD400DF7984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2E8AFF20C7CAD400DF7984;
+			remoteInfo = CTTestSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2E8B0020C7CAD400DF7984 /* CTTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2E8B0320C7CAD400DF7984 /* CTTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTTestSDK.h; sourceTree = "<group>"; };
+		DA2E8B0420C7CAD400DF7984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E8B0920C7CAD500DF7984 /* CTTestSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTTestSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2E8B0E20C7CAD500DF7984 /* CTTestSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTTestSDKTests.m; sourceTree = "<group>"; };
+		DA2E8B1020C7CAD500DF7984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E8B1F20C7D11D00DF7984 /* CTTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTTestView.h; sourceTree = "<group>"; };
+		DA2E8B2020C7D11D00DF7984 /* CTTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTTestView.m; sourceTree = "<group>"; };
+		DA2E8B2E20C8075600DF7984 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2E8AFC20C7CAD400DF7984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E8B2F20C8075600DF7984 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E8B0620C7CAD500DF7984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E8B0A20C7CAD500DF7984 /* CTTestSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2E8AF620C7CAD400DF7984 = {
+			isa = PBXGroup;
+			children = (
+				DA2E8B0220C7CAD400DF7984 /* CTTestSDK */,
+				DA2E8B0D20C7CAD500DF7984 /* CTTestSDKTests */,
+				DA2E8B0120C7CAD400DF7984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2E8B0120C7CAD400DF7984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E8B0020C7CAD400DF7984 /* CTTestSDK.framework */,
+				DA2E8B0920C7CAD500DF7984 /* CTTestSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2E8B0220C7CAD400DF7984 /* CTTestSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E8B2E20C8075600DF7984 /* SDWebImage.framework */,
+				DA2E8B0320C7CAD400DF7984 /* CTTestSDK.h */,
+				DA2E8B0420C7CAD400DF7984 /* Info.plist */,
+				DA2E8B1F20C7D11D00DF7984 /* CTTestView.h */,
+				DA2E8B2020C7D11D00DF7984 /* CTTestView.m */,
+			);
+			path = CTTestSDK;
+			sourceTree = "<group>";
+		};
+		DA2E8B0D20C7CAD500DF7984 /* CTTestSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E8B0E20C7CAD500DF7984 /* CTTestSDKTests.m */,
+				DA2E8B1020C7CAD500DF7984 /* Info.plist */,
+			);
+			path = CTTestSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA2E8AFD20C7CAD400DF7984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E8B2120C7D11D00DF7984 /* CTTestView.h in Headers */,
+				DA2E8B1120C7CAD500DF7984 /* CTTestSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA2E8AFF20C7CAD400DF7984 /* CTTestSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2E8B1420C7CAD500DF7984 /* Build configuration list for PBXNativeTarget "CTTestSDK" */;
+			buildPhases = (
+				DA2E8AFB20C7CAD400DF7984 /* Sources */,
+				DA2E8AFC20C7CAD400DF7984 /* Frameworks */,
+				DA2E8AFD20C7CAD400DF7984 /* Headers */,
+				DA2E8AFE20C7CAD400DF7984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTTestSDK;
+			productName = CTTestSDK;
+			productReference = DA2E8B0020C7CAD400DF7984 /* CTTestSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA2E8B0820C7CAD500DF7984 /* CTTestSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2E8B1720C7CAD500DF7984 /* Build configuration list for PBXNativeTarget "CTTestSDKTests" */;
+			buildPhases = (
+				DA2E8B0520C7CAD500DF7984 /* Sources */,
+				DA2E8B0620C7CAD500DF7984 /* Frameworks */,
+				DA2E8B0720C7CAD500DF7984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2E8B0C20C7CAD500DF7984 /* PBXTargetDependency */,
+			);
+			name = CTTestSDKTests;
+			productName = CTTestSDKTests;
+			productReference = DA2E8B0920C7CAD500DF7984 /* CTTestSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2E8AF720C7CAD400DF7984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Seas.Cheng;
+				TargetAttributes = {
+					DA2E8AFF20C7CAD400DF7984 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DA2E8B0820C7CAD500DF7984 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DA2E8B2320C7D87900DF7984 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = DA2E8AFA20C7CAD400DF7984 /* Build configuration list for PBXProject "CTTestSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA2E8AF620C7CAD400DF7984;
+			productRefGroup = DA2E8B0120C7CAD400DF7984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2E8AFF20C7CAD400DF7984 /* CTTestSDK */,
+				DA2E8B0820C7CAD500DF7984 /* CTTestSDKTests */,
+				DA2E8B2320C7D87900DF7984 /* CTTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2E8AFE20C7CAD400DF7984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E8B0720C7CAD500DF7984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA2E8B2720C7D87C00DF7984 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Constants\nSF_TARGET_NAME=${PROJECT_NAME}\n#自定义的用来存放最后合并的framework\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n\n\n#IPHONE_DEVICE_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\nWORKSPACE_NAME=${PROJECT_NAME}.xcworkspace\nYO_SCHEME=${PROJECT_NAME}\n\n#clean build是先清除原来的build\nxcodebuild -workspace ${WORKSPACE_NAME} -scheme ${YO_SCHEME} -sdk iphonesimulator -configuration\"${CONFIGURATION}\"clean build\nxcodebuild -workspace ${WORKSPACE_NAME} -scheme ${YO_SCHEME} -sdk iphoneos -configuration\"${CONFIGURATION}\"clean build\n\n# build project\n#xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/arm64\" SYMROOT=\"${SYMROOT}\" ARCHS='arm64' VALID_ARCHS='arm64' $ACTION\n\n#xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\"  CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/armv7\" SYMROOT=\"${SYMROOT}\" ARCHS='armv7 armv7s' VALID_ARCHS='armv7 armv7s' $ACTION\n\n# Copy the framework structure to the universal folder (clean it first)\n#因为framework的合并,lipo只是合并了最后的二进制可执行文件,所以其它的需要我们自己复制过来\n#先移除原来的\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n#合并模拟器和真机的架构\nlipo -create  \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"-output\"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2E8AFB20C7CAD400DF7984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E8B2220C7D11D00DF7984 /* CTTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E8B0520C7CAD500DF7984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E8B0F20C7CAD500DF7984 /* CTTestSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2E8B0C20C7CAD500DF7984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2E8AFF20C7CAD400DF7984 /* CTTestSDK */;
+			targetProxy = DA2E8B0B20C7CAD500DF7984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA2E8B1220C7CAD500DF7984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA2E8B1320C7CAD500DF7984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA2E8B1520C7CAD500DF7984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CTTestSDK",
+				);
+				INFOPLIST_FILE = CTTestSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.centling.CTTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA2E8B1620C7CAD500DF7984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CTTestSDK",
+				);
+				INFOPLIST_FILE = CTTestSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.centling.CTTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA2E8B1820C7CAD500DF7984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				INFOPLIST_FILE = CTTestSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.centling.CTTestSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA2E8B1920C7CAD500DF7984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				INFOPLIST_FILE = CTTestSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.centling.CTTestSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA2E8B2520C7D87900DF7984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2E8B2620C7D87900DF7984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989C79EYK5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2E8AFA20C7CAD400DF7984 /* Build configuration list for PBXProject "CTTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E8B1220C7CAD500DF7984 /* Debug */,
+				DA2E8B1320C7CAD500DF7984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2E8B1420C7CAD500DF7984 /* Build configuration list for PBXNativeTarget "CTTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E8B1520C7CAD500DF7984 /* Debug */,
+				DA2E8B1620C7CAD500DF7984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2E8B1720C7CAD500DF7984 /* Build configuration list for PBXNativeTarget "CTTestSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E8B1820C7CAD500DF7984 /* Debug */,
+				DA2E8B1920C7CAD500DF7984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2E8B2420C7D87900DF7984 /* Build configuration list for PBXAggregateTarget "CTTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E8B2520C7D87900DF7984 /* Debug */,
+				DA2E8B2620C7D87900DF7984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2E8AF720C7CAD400DF7984 /* Project object */;
+}
